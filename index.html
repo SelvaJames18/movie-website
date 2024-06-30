@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- navbar section -->
+
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="logo">
+                <img src="assets/logo.svg" alt="logo">
+            </a>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#latest" class="active">Latest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#my-list">My list</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#most-watched">Most watched</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#subscribe">Subscribe</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-icons">
+                <a href="#"><i class="fa-solid fa-bell"></i></a>
+                <a href=""><i class="fa-solid fa-user"></i></i></a>
+            </div>
+            <div class="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- latest movie section -->
+
+        <div class="latest-movies" id="latest">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(assets/movie-title1.png);">
+                    <div class="silder-content">
+                        <span class="tag">18+</span>
+                        <h4 class="movie-title">Fight club</h4>
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="rate">9.2</p>
+                            <p class="genres">Action/Crime</p>
+                        </div>
+                        <div class="buttons">
+                           <a href="https://youtu.be/qtRKdVHc-cE?si=FhcUcf6xnd25zCiz"><button class="btn-primary"><i class="fa-solid fa-play"></i>Trailer</button></a>
+                            <button class="btn-secondary"><i class="fa-solid fa-circle-plus"></i>Add List</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(assets/oppenheimer.jpg);">
+                    <div class="silder-content">
+                        <span class="tag">18+</span>
+                        <h4 class="movie-title">Oppen- heimer</h4>
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="rate">8.3</p>
+                            <p class="genres">Thriller/Historical/Drama</p>
+                        </div>
+                        <div class="buttons">
+                           <a href="https://youtu.be/uYPbbksJxIg?si=OofDAKMYJlPKiWsJ"> <button class="btn-primary"><i class="fa-solid fa-play"></i>Trailer</button></a>
+                            <button class="btn-secondary"><i class="fa-solid fa-circle-plus"></i>Add List</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(assets/looper.jpg);">
+                    <div class="silder-content">
+                        <span class="tag">12+</span>
+                        <h4 class="movie-title">Lopper</h4>
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="rate">7.5</p>
+                            <p class="genres">Action/Sci-fi</p>
+                        </div>
+                        <div class="buttons">
+                           <a href="https://youtu.be/8Ltpa4QmnuU?si=MZqhwbLO3_3TxW2n"><button class="btn-primary"><i class="fa-solid fa-play"></i>Trailer</button></a>
+                            <button class="btn-secondary"><i class="fa-solid fa-circle-plus"></i>Add List</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(assets/movie-title2.jpeg);">
+                    <div class="silder-content">
+                        <span class="tag">16+</span>
+                        <h4 class="movie-title">Good will hunting</h4>
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="rate">8.3</p>
+                            <p class="genres">Romance/Drama</p>
+                        </div>
+                        <div class="buttons">
+                           <a href="https://youtu.be/ReIJ1lbL-Q8?si=Jhv9O-SNqmMmZT9f"><button class="btn-primary"><i class="fa-solid fa-play"></i>Trailer</button></a>
+                            <button class="btn-secondary"><i class="fa-solid fa-circle-plus"></i>Add List</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(assets/free-guy.jpg);">
+                    <div class="silder-content">
+                        <span class="tag">18+</span>
+                        <h4 class="movie-title">Free Guy</h4>
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="rate">7.1</p>
+                            <p class="genres">Action/Comedy</p>
+                        </div>
+                        <div class="buttons">
+                           <a href="https://youtu.be/JORN2hkXLyM?si=OpHMgWFumMGC4Ff7"><button class="btn-primary"><i class="fa-solid fa-play"></i>Trailer</button></a>
+                            <button class="btn-secondary"><i class="fa-solid fa-circle-plus"></i>Add List</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(assets/barbie.jpg);">
+                    <div class="silder-content">
+                        <span class="tag">15+</span>
+                        <h4 class="movie-title">Barbie</h4>
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="rate">7.0</p>
+                            <p class="genres">Comedy/Fantasy</p>
+                        </div>
+                        <div class="buttons">
+                           <a href="https://youtu.be/pBk4NYhWNMM?si=7oxbSqNLnTJbz3bi"><button class="btn-primary"><i class="fa-solid fa-play"></i>Trailer</button></a>
+                            <button class="btn-secondary"><i class="fa-solid fa-circle-plus"></i>Add List</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(assets/movie-title5.png);">
+                    <div class="silder-content">
+                        <span class="tag">18+</span>
+                        <h4 class="movie-title">Interstellar</h4>
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="rate">8.7</p>
+                            <p class="genres">Sci-fi/Adventure</p>
+                        </div>
+                        <div class="buttons">
+                           <a href="https://youtu.be/zSWdZVtXT7E?si=Aa75YhteVshDaGgF"><button class="btn-primary"><i class="fa-solid fa-play"></i>Trailer</button></a>
+                            <button class="btn-secondary"><i class="fa-solid fa-circle-plus"></i>Add List</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(assets/movie-title3.png);">
+                    <div class="silder-content">
+                        <span class="tag">12+</span>
+                        <h4 class="movie-title">Dead Poets Society</h4>
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="rate">8.1</p>
+                            <p class="genres">Comedy/Drama</p>
+                        </div>
+                        <div class="buttons">
+                           <a href="https://youtu.be/ye4KFyWu2do?si=nhnrr8rO-NzQyeus"><button class="btn-primary"><i class="fa-solid fa-play"></i>Trailer</button></a>
+                            <button class="btn-secondary"><i class="fa-solid fa-circle-plus"></i>Add List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- continue watching section -->
+
+        <div class="continue-watching" id="my-list">
+            <div class="section-titles">
+                <h2 class="sec-subtitle">total queue</h2>
+                <h1 class="sec-title">continue watching</h1>
+            </div>
+            <div class="swiper-buttons">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="swiper continue-watching-list">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide list-item">
+                        <img src="assets/breaking-bad-background-hd-wallpaper.png" alt="" class="watching-img">
+                        <p class="movie-name">Breaking Bad</p>
+                        <p class="caption">season 5 episode 1</p>
+                    </div>
+                    <div class="swiper-slide list-item">
+                        <img src="assets/penguins.jpeg" alt="" class="watching-img">
+                        <p class="movie-name">penguins</p>
+                        <p class="caption">season 1 episode 2</p>
+                    </div>
+                    <div class="swiper-slide list-item">
+                        <img src="assets/la-casa-de-papel.jpg" alt="" class="watching-img">
+                        <p class="movie-name">la casa de papel</p>
+                        <p class="caption">season 5 episode 3</p>
+                    </div>
+                    <div class="swiper-slide list-item">
+                        <img src="assets/the-office.jpg" alt="" class="watching-img">
+                        <p class="movie-name">the office</p>
+                        <p class="caption">season 2 episode 5</p>
+                    </div>
+                    <div class="swiper-slide list-item">
+                        <img src="assets/one-piece.jpeg" alt="" class="watching-img">
+                        <p class="movie-name">One piece</p>
+                        <p class="caption">episode 1055</p>
+                    </div>
+                    <div class="swiper-slide list-item">
+                        <img src="assets/stranger-things.jpg" alt="" class="watching-img">
+                        <p class="movie-name">stranger things</p>
+                        <p class="caption">season 1 episode 8</p>
+                    </div>
+                    <div class="swiper-slide list-item">
+                        <img src="assets/john-wick.jpg" alt="" class="watching-img">
+                        <p class="movie-name">john wick</p>
+                        <p class="caption">chapter 4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- most watched section -->
+
+        <div class="most-watched" id="most-watched">
+            <div class="most-watched-container">
+                <div class="section-titles">
+                    <h2 class="sec-subtitle">Most watched</h2>
+                    <h1 class="sec-title">the most watched show</h1>
+                </div>
+                <div class="movie-desc">
+                    <div class="desc-container">
+                        <img src="assets/pb-title.png" alt="" class="movie-logo">
+                        <p class="genres">
+                            Peaky Blinders is a crime drama centred on a family of mixed Irish Traveller and
+                            Romani origins based in Birmingham, England, starting in 1919, several months
+                            after the end of the First World War. It centres on the Peaky Blinders street
+                            gang and their ambitious, cunning crime boss Tommy Shelby.
+                            The gang comes to the attention of Major Chester Campbell, a detective chief
+                            inspector in the Royal Irish Constabulary sent over by Winston Churchill from
+                            Belfast, where he had been sent to clean up the city of the Irish Republican Army flying
+                            columns,
+                            the Communist Party of Great Britain, street gangs, and common criminals. Winston Churchill
+                            (played by Andy Nyman in series 1 and Richard McCabe in series 2) charges him with
+                            suppressing disorder
+                        </p>
+                    </div>
+                    <div class="details">
+                        <div>
+                            <p class="caption">main character</p>
+                            <h3 class="sec-subtitle">Tommy shelby</h3>
+                        </div>
+                        <div>
+                            <p class="caption">first episode</p>
+                            <h3 class="sec-subtitle"> Birmingham, 1919</h3>
+                        </div>
+                        <div>
+                            <p class="caption">IMDB</p>
+                            <h3 class="sec-subtitle">9.9/10</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer section -->
+
+    <footer class="footer" id="subscribe">
+        <div class="apps">
+            <div class="icons">
+                <i class="fa-brands fa-google-play primary-color"></i>
+                <i class="fa-brands fa-app-store-ios secondary-color"></i>
+            </div>
+            <p>download our app</p>
+        </div>
+        <div>
+            <div class="subscribe">
+                <input type="email" placeholder="Enter your Email here">
+                <button class="subscribe-btn">subscribe</button>
+            </div>
+            <p class="caption">don't miss latest news, subscribe to out newsletter</p>
+        </div>
+        <div class="social">
+            <p class="caption">follow us on social media</p>
+            <div class="icons">
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
